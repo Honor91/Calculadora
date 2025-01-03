@@ -37,6 +37,7 @@ let pantalla2  = document.getElementById("pantalla2");
 let start_audio = null;
 computing_audio = new Audio('computing.wav');
 let second_parameter = "";
+let turn_off = new Audio('turn_off.wav');
 /* Functionality */
 
 all_butons.forEach((buton,index) => {
@@ -54,6 +55,7 @@ all_butons.forEach((buton,index) => {
       pantalla2.innerHTML = "";
       start_audio.pause();
       start_audio.currentTime = 0;
+      turn_off.play();
     };
     if (pantalla1.innerHTML == 'MS-DOS (1981)' && ![0,19].includes(index) && ![18].includes(index)) {
       pantalla2.innerHTML = pantalla2.innerHTML +""+ e.target.innerHTML
