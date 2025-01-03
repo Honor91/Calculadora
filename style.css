@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F4EDD3;
+  margin: 0;
+  display: grid;
+}
+h1{
+  text-align: center;
+}
+.wrapper{
+  background-color: #4C585B;
+  border: 2px solid #4C585B;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  'pantalla1 pantalla1 pantalla1 pantalla1'
+  'pantalla2 pantalla2 pantalla2 pantalla2'
+  'on raiz porcentaje division'
+  'siete ocho nueve producto'
+  'cuatro cinco seis resta'
+  'uno dos tres suma'
+  'punto cero igual ac';
+  gap: 2px;
+}
+button{
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 55px;
+  font-weight: 500;
+}
+.pantalla{
+  border-radius: 6px;
+  border: 1px solid #4C585B;
+  background-color: #222222;
+  color: #ffffff;
+}
+#pantalla1{
+  grid-area: pantalla1;
+  height: 20px;
+  text-align: center;
+}
+#pantalla2{
+  background-color: #222222;
+
+  grid-area: pantalla2;
+  height: 40px;
+}
+
+.on{
+  padding-left: 6px;
+  grid-area: on;
+  background-color: rgb(250, 138, 138);
+}
+.on:active{
+  background-color: #A1D6CB;
+  transition: ease-in-out;
+}
+.raiz{
+  grid-area: raiz;
+}
+.porcentaje{
+  grid-area: porcentaje;
+}
+.division{
+  grid-area: division;
+}
+.siete{
+  grid-area: siete;
+}
+.ocho{
+  grid-area: ocho;
+}
+.nueve{
+  grid-area: nueve;
+}
+.producto{
+  grid-area: producto;
+}
+.cuatro{
+  grid-area: cuatro;
+}
+.cinco{
+  grid-area: cinco;
+}
+.seis{
+  grid-area: seis;
+}
+.resta{
+  grid-area: resta;
+}
+.uno{
+  grid-area: uno;
+}
+.dos{
+  grid-area: dos;
+}
+.tres{
+  grid-area: tres;
+}
+.suma{
+  grid-area: suma;
+  /*grid-area: 6/4/8/5;*/
+}
+.punto{
+  grid-area: punto;
+}
+.cero{
+  grid-area: cero;
+}
+.igual{
+  grid-area: igual;
+}
+.ac{
+  grid-area: ac;
+  background-color: rgb(250, 138, 138);
+}
