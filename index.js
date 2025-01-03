@@ -71,7 +71,7 @@ all_butons.forEach((buton,index) => {
       pantalla2.style.fontWeight = 500;
       pantalla2.style.paddingRight = '10px'
 
-      const buton_audio = new Audio('sounds/boton.mp3');
+      const buton_audio = new Audio('boton.mp3');
       buton_audio.play();
     };
     if (pantalla1.innerHTML == 'MS-DOS (1981)' && index === 18) {
