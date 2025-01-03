@@ -35,7 +35,7 @@ let all_butons = document.querySelectorAll("button");
 let pantalla1  = document.getElementById("pantalla1");
 let pantalla2  = document.getElementById("pantalla2");
 let start_audio = null;
-computing_audio = new Audio('sounds/computing.wav');
+computing_audio = new Audio('computing.wav');
 let second_parameter = "";
 /* Functionality */
 
