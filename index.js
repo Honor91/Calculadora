@@ -1,7 +1,7 @@
 /* FUNCIONES */
 
 function playSound() {
-  const button_audio=new Audio('sounds/boton.mp3');
+  const button_audio=new Audio('boton.mp3');
   button_audio.play();
 }
 function operation(a,b,c) {
