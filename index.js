@@ -45,7 +45,7 @@ all_butons.forEach((buton,index) => {
     if (index === 0 && pantalla1.innerHTML == "") {
       e.target.style.background = '#A1D6CB';
       pantalla1.innerHTML = 'MS-DOS (1981)';
-      start_audio = new Audio('sounds/Inicio.wav');
+      start_audio = new Audio('Inicio.wav');
       start_audio.play();
     /* Turn off */
     }else if (index===0 && pantalla1.innerHTML == 'MS-DOS (1981)') {
